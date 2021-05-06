@@ -43,7 +43,7 @@
 
   // Constants
   var NAME = 'Parallax';
-  var MAGIC_NUMBER = 90;
+  var MAGIC_NUMBER = 120;
   var DEFAULTS = {
     relativeInput: false,
     clipRelativeInput: false,
@@ -56,12 +56,12 @@
     invertY: true,
     limitX: false,
     limitY: false,
-    scalarX: 50.0,
-    scalarY: 50.0,
-    frictionX: 0.5,
-    frictionY: 0.5,
-    originX: 0.5,
-    originY: 0.5
+    scalarX: 90.0,
+    scalarY: 90.0,
+    frictionX: 1.5,
+    frictionY: 1.5,
+    originX: 1.5,
+    originY: 1.5
   };
 
   function Parallax(element, options) {
